@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+span {
+    display: inline-flex;
+}
+
+ul li {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+#quest1, #quest2, #quest3 {
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+.quest1_box {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    width: 400px;
+    padding: 16px 32px;
+}
+
+.timer {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.millisecond {
+    margin-left: 250px;
+}
+
+.btn {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+
+.btn.btn_left,
+.btn.btn_set {
+    background-color: #00f300;
+}
+.btn.btn_right {
+    background-color: #f00;
+}
+.btn.btn_number {
+    background-color: #00f300;
+    width: 50px;
+}
+.btn.btn_back {
+    display: none;
+}
+
+#quest2 .btn.btn_left,
+#quest2 .btn.btn_right{
+    display: none;
+}
